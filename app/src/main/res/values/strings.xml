@@ -5,4 +5,8 @@
     <string name="button3">Button3</string>
     <string name="button4">Button4</string>
     <string name="button5">Button5</string>
+    <string name="question">Question</string>
+    <string name="score">Score</string>
+    <string name="faux">Faux</string>
+    <string name="vrai">Vrai</string>
 </resources>
