@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/question"
@@ -20,6 +21,7 @@
         app:layout_constraintVertical_bias="0.367" />
 
     <TextView
+        android:id="@+id/score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/score"
@@ -32,26 +34,26 @@
         app:layout_constraintVertical_bias="0.605" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonTrue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/vrai"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/buttonFalse"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/buttonFalse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/faux"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/buttonTrue"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5" />
 

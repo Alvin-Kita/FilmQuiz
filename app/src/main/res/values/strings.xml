@@ -1,12 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">FilmQuiz</string>
     <string name="button1" tools:ignore="Typos">Button1</string>
     <string name="button2">Button2</string>
     <string name="button3">Button3</string>
     <string name="button4">Button4</string>
     <string name="button5">Button5</string>
-    <string name="question">Question</string>
-    <string name="score">Score</string>
     <string name="faux">Faux</string>
     <string name="vrai">Vrai</string>
+
+    <!-- Partie des questions -->
+    <string name="app_name">FilmQuiz</string>
+    <string name="question">Question</string>
+    <string name="button_true">TRUE</string>
+    <string name="button_false">FALSE</string>
+    <string name="score">Score</string>
+    <string name="question_ai">Artificial Intelligence : AI is a film directed by Steven Spielberg</string>
+    <string name="question_taxi_driver">Taxi Driver is a film directed by Martin Scorsese</string>
+    <string name="question_2001">2001 : A space Odyssey is a film directed by Alfred Hitchcock</string>
+    <string name="question_reservoir_dogs">Reservoir dogs is a film directed by Quentin Tarantino</string>
+    <string name="question_citizen_kane">Citizen Kane is a film directed by Luc Besson</string>
+
+
 </resources>
